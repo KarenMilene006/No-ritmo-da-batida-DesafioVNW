@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  height: 70vh;
+  background-color: #129799;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ========================PRIMEIRO MENU=============== */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 9vh;
+}
+
+.menu a {
+
+  color: white;
+  padding: 80px;
+}
+.menu a:hover {
+  color: blue;
+}
+h1 {
+  color: white;
+}
+
+/* ===================TEXTO HEADER==================== */
+.textritmo {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menutext {
+  width: 35%;
+}
+
+.menutext h1 {
+  color: #f7f7f7;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* =======================IMAGEM DA HEADER===================== */
+.menuimg {
+  width: 50%;
+}
+.menuimg img {
+  width: 100%;
+}
+
+/* ==================INICIO MAIN=============== */
+main {
+  width: 100%;
+  background-color: #ffa185;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ====================PARTE DE TEXTO DA MAIN============== */
+.text {
+  font-size: 20px;
+  width: 90%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.text h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+/* ==============IMAGENS MAIN====================== */
+.imagem {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blocoimg {
+  width: 40%;
+  transition: all.2s;
+}
+
+.blocoimg:hover{
+ transform: scale(1.3);
+}
+
+.blocoimg img {
+  width: 100%;
+}
+
+.veja {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  width: 100%;
+}
+
+.veja:hover{
+  color: red;
+}
+
+/* ==================FOOTER=============== */
+footer {
+  width: 100%;
+  height: 20vh;
+  background-color: #129799;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgfooter {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.menu3{
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu3 a {
+  color: white;
+}
+.menu3 a:hover {
+  color: blue;
+}
+
+
+
+
+@media(min-width:320px) and (max-width: 500px){
+  header {
+    width: 100%;
+    height: 60vh;
+    justify-content: space-between;
+  }
+
+
+    .text {
+      width: 88%;
+      height: 55vh;
+    }
+  
+  
+.menu {
+  height: 10vh;
+}
+.menu a {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  padding: 0;
+
+}
+
+.textritmo {
+  height: 40vh;
+  flex-direction: column;
+}
+
+.menutext {
+  width: 95%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menutext h1 {
+  font-size: 35px;
+}
+
+.menuimg {
+  width: 80%;
+  height: 25vh;
+}
+.menuimg img {
+  height:25vh ;
+}
+
+
+/* ====================PARTE DE TEXTO DA MAIN============== */
+
+.text h2 {
+  font-size: 32px;
+}
+
+.text p {
+  font-size: 20px;
+}
+
+/* ==============IMAGENS MAIN====================== */
+.imagem {
+  height: 50vh;
+}
+
+.blocoimg {
+  height: 20vh;
+  width: 40%;
+}
+
+.blocoimg img {
+  height: 19vh;
+}
+
+.veja {
+  height: 15vh;
+}
+
+/* ==================FOOTER=============== */
+footer {
+  height: 22vh;
+}
+
+.imgfooter {
+  width: 60%;
+  height: 9vh;
+}
+
+.imgfooter img{
+width: 20%;
+height: 8vh;
+}
+
+.menu3{
+  width: 35%;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.menu3 a {
+  color: white;
+}
+.menu3 a:hover {
+  color: blue;
+}
+
+
+}
+
+
+@media(min-width:361px) and (max-width:500px){
+  .text {
+    width: 88%;
+    height: 40vh;
+  }
+}
